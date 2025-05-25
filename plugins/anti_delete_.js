@@ -1,4 +1,4 @@
-const { pop } = require('@whiskeysockets/baileys');
+const { isJidGroup } = require('@whiskeysockets/baileys');
 const { loadMessage, getAnti } = require('../data'); // Assuming these are correctly imported
 const config = require('../config');
 
